@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" ... />
+  <title>MadCuts</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <!-- Hamburger on mobile (left) -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="nav-left nav-links" id="navLinks">
+        <a href="#examples">Examples</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#call" class="cta-button mobile-only-button">Book A Discovery Call</a>
+      </div>
+
+      <!-- Logo (right on mobile) -->
+      <div class="logo">
+        <img src="/assets/images/logo.png" alt="madCuts logo" />
+      </div>
+
+      <!-- CTA (desktop only) -->
+      <div class="nav-right">
+        <a href="#call" class="cta-button desktop-only-button">Book A Discovery Call</a>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        <span>We make madly good videos</span>
+        <span>that make you insanely viral</span>
+      </h1>
+      <p>
+        <span>Our mad talented team of editors and animators are</span>
+        <span>here to help not only with viral videos but grow your brand insanely.</span>
+      </p>
+      <a href="#call" class="hero-button">Get Started</a>
+    </div>
+
+    <div class="shortform-circle">
+      <img src="/assets/images/circle.png" alt="Short Form Circle" />
+    </div>
+  </section>
+
+
+  <!-- Highlight bar -->
+  <section class="highlight-bar">
+    <div class="highlight-track">
+      <div class="highlight-content">
+        <span>7-Day Free Trial · No Contracts · Flat Monthly Fee · Unlimited Requests · </span>
+        <span>7-Day Free Trial · No Contracts · Flat Monthly Fee · Unlimited Requests · </span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Carousal Videos section -->
+  <section class="trusted-section">
+    <div class="trusted-heading">
+      <h2>
+        <span>Trusted By Mad Popular Creators</span>
+        <span>Influencers, Agencies, and Fortune 500s</span>
+      </h2>
+    </div>
+
+    <div class="video-carousel">
+      <button class="carousel-arrow left" onclick="scrollCarousel('left')">&#10094;</button>
+      <div class="video-track">
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/2.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/2.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- duplicated for loop effect -->
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/2.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/2.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <video src="/assets/videos/1.mp4" muted autoplay loop></video>
+          <div class="video-controls">
+            <input type="range" min="0" max="100" value="0" class="progress-bar">
+            <div class="control-icons">
+              <span class="icon volume">🔈</span>
+              <span class="icon settings">⚙️</span>
+              <span class="icon fullscreen">⛶</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-arrow right" onclick="scrollCarousel('right')">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Bridge Image (Between Sections) -->
+  <div class="section-divider">
+    <img src="/assets/images/line.png" alt="Section Divider" />
+  </div>
+
+
+  <!-- Talent Section -->
+  <section class="talent-section">
+    <div class="talent-header">
+      <h2>Work with our world class talents<br>to grow faster</h2>
+      <a href="#call" class="talent-cta-button">Get Started</a>
+    </div>
+
+    <div class="talent-cards">
+      <div class="talent-card">
+        <img src="/assets/images/image3.png" alt="Mad Fast" class="card-icon-img" />
+        <h3>Mad Fast</h3>
+        <p>We deliver results at lightning speed.<br>
+          Ensuring your videos are ready to<br>
+          impress when you need them most.</p>
+      </div>
+
+      <div class="talent-card">
+        <img src="/assets/images/image2.png" alt="Mad Fast" class="card-icon-img" />
+        <h3>Insane Quality</h3>
+        <p>We don’t just meet standards;<br>
+          we set them. Your videos will be<br>
+          nothing short of exceptional.</p>
+      </div>
+
+      <div class="talent-card">
+        <img src="/assets/images/image.png" alt="Mad Fast" class="card-icon-img" />
+        <h3>No Lock In Contracts</h3>
+        <p>You have the freedom to choose what<br>
+          works best for you, with the option<br>
+          to pause or cancel at any time.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Visual Section Divider -->
+  <div class="divider-between-sections">
+    <img src="/assets/images/line2.png" alt="Visual Divider" />
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="work-section">
+    <div class="work-heading">
+      <h2>We can help you with…</h2>
+    </div>
+
+    <div class="work-tags-container">
+      <!-- Line One -->
+      <div class="work-tags line-one">
+        <span>YouTube Shorts</span>
+        <span>Instagram Reels</span>
+        <span>Podcast to Shorts</span>
+        <span>Content Repurpose</span>
+        <span>Video Explainers</span>
+        <span>YouTube</span>
+        <span>Social Media Ads</span>
+        <span>Long Form Video</span>
+        <span>TikTok Videos</span>
+        <span>Motion Graphics</span>
+
+        <!-- Duplicated for seamless scroll -->
+        <span>YouTube Shorts</span>
+        <span>Instagram Reels</span>
+        <span>Podcast to Shorts</span>
+        <span>Content Repurpose</span>
+        <span>Video Explainers</span>
+        <span>YouTube</span>
+        <span>Social Media Ads</span>
+        <span>Long Form Video</span>
+        <span>TikTok Videos</span>
+        <span>Motion Graphics</span>
+      </div>
+
+      <!-- Line Two -->
+      <div class="work-tags line-two">
+        <span>Motion Graphics</span>
+        <span>Long Form Video</span>
+        <span>Social Media Ads</span>
+        <span>YouTube</span>
+        <span>Video Explainers</span>
+        <span>Content Repurpose</span>
+        <span>Podcast to Shorts</span>
+        <span>Instagram Reels</span>
+        <span>YouTube Shorts</span>
+
+        <!-- Duplicated for seamless scroll -->
+        <span>Motion Graphics</span>
+        <span>Long Form Video</span>
+        <span>Social Media Ads</span>
+        <span>YouTube</span>
+        <span>Video Explainers</span>
+        <span>Content Repurpose</span>
+        <span>Podcast to Shorts</span>
+        <span>Instagram Reels</span>
+        <span>YouTube Shorts</span>
+      </div>
+    </div>
+
+    <div class="work-video-showcase">
+      <!-- RAW video -->
+      <div class="video-box raw">
+        <div class="arrow arrow-right"></div>
+        <div class="label">RAW</div>
+        <video src="/assets/videos/1.mp4" controls muted></video>
+      </div>
+
+      <!-- EDITED video -->
+      <div class="video-box edited">
+        <div class="arrow arrow-left"></div>
+        <div class="label">EDITED</div>
+        <video src="/assets/videos/2.mp4" controls muted></video>
+      </div>
+    </div>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+        <!-- Clone of LAST -->
+        <div class="work-testimonial clone"> <!-- Slide 3 -->
+          <hr>
+          <p>
+            MadCuts were awesome animators and editors.<br>
+            Fast, reliable, and easy to communicate with.<br>
+            We highly recommend them!<br><br>
+            <strong>Theresa Keller</strong><br>GetAwesomeArts
+          </p>
+        </div>
+
+        <!-- Real Slides -->
+        <div class="work-testimonial"> <!-- Slide 1 -->
+          <hr>
+          <p>
+            I worked with MadCuts for over a year and would highly<br>
+            recommend you to hire them as your next editors/animators.<br>
+            They were the first at my agency and were an absolute<br>
+            pleasure to work with.<br><br>
+            <strong>Horacio Lopez</strong><br>Untitled Assembly
+          </p>
+        </div>
+
+        <div class="work-testimonial"> <!-- Slide 2 -->
+          <hr>
+          <p>
+            They led the video and animation for my social media.<br>
+            Very high quality work each time, met deadlines consistently,<br>
+            and handled a variety of animation styles.<br><br>
+            <strong>Bhavy Dawan</strong><br>CapStack
+          </p>
+        </div>
+
+        <div class="work-testimonial"> <!-- Slide 3 -->
+          <hr>
+          <p>
+            MadCuts were awesome animators and editors.<br>
+            Fast, reliable, and easy to communicate with.<br>
+            We highly recommend them!<br><br>
+            <strong>Theresa Keller</strong><br>GetAwesomeArts
+          </p>
+        </div>
+
+        <!-- Clone of FIRST -->
+        <div class="work-testimonial clone"> <!-- Slide 1 again -->
+          <hr>
+          <p>
+            I worked with MadCuts for over a year and would highly<br>
+            recommend you to hire them as your next editors/animators.<br>
+            They were the first at my agency and were an absolute<br>
+            pleasure to work with.<br><br>
+            <strong>Horacio Lopez</strong><br>Untitled Assembly
+          </p>
+        </div>
+      </div>
+
+      <!-- Dots -->
+      <div class="testimonial-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Pricing Section -->
+  <section class="pricing-section">
+    <h2 class="pricing-heading">Use our world-class video<br>talent to grow faster.</h2>
+
+    <div class="pricing-steps">
+      <div><span>1</span> Subscribe & Share</div>
+      <div><span>2</span> Get edits within 24–72 hours</div>
+      <div><span>3</span> Publish & Grow</div>
+    </div>
+
+    <div class="pricing-cards">
+      <!-- MAD Plan -->
+      <div class="pricing-card">
+        <div class="pricing-avatar"><img src="/assets/images/p1.png" alt="Mad" /></div>
+        <h3>MAD</h3>
+        <div class="price">$499<span>/mo</span></div>
+        <p class="note">Pause or cancel anytime</p>
+        <ul>
+          <li>✔ 4 Hi-Fi videos</li>
+          <li>✔ 4 Low-Fi videos</li>
+          <li>✔ 1 World-Class Editor</li>
+          <li>✔ 1 Project/Account Manager</li>
+          <li>✔ Clip Selection</li>
+        </ul>
+        <div class="card-bottom">
+          <a href="#call" class="subscribe-btn">Subscribe Now</a>
+        </div>
+      </div>
+
+      <!-- INSANE Plan -->
+      <div class="pricing-card highlighted">
+        <div class="badge yellow">MOST POPULAR 🔥</div>
+        <div class="pricing-avatar"><img src="/assets/images/p2.png" alt="Insane" /></div>
+        <h3>INSANE</h3>
+        <div class="price">$1,499<span>/mo</span></div>
+        <p class="note">Pause or cancel anytime</p>
+        <ul>
+          <li>✔ 40 editing hours/week</li>
+          <li>✔ 1 Full-Time Animator/Editor</li>
+          <li>✔ Expert Project Manager</li>
+          <li>✔ Clip Selection</li>
+          <li>✔ Content Strategy</li>
+          <li>✔ Shooting/Recording Coaching</li>
+          <li>✔ Weekly Project Report</li>
+        </ul>
+        <div class="card-bottom">
+          <a href="#call" class="subscribe-btn">Subscribe Now</a>
+        </div>
+      </div>
+
+      <!-- MINDBLOWING Plan -->
+      <div class="pricing-card highlighted-alt">
+        <div class="badge purple">BEST VALUE 💎</div>
+        <div class="pricing-avatar"><img src="/assets/images/p3.png" alt="Mindblowing" /></div>
+        <h3>MINDBLOWING</h3>
+        <div class="price">$2,799<span>/mo</span></div>
+        <p class="note">Pause or cancel anytime</p>
+        <ul>
+          <li>✔ 80 editing hours/week</li>
+          <li>✔ 2x Full-Time Animators/Editors</li>
+          <li>✔ Expert Project/Account Manager</li>
+          <li>✔ Clip Selection</li>
+          <li>✔ Content Strategy</li>
+          <li>✔ Shooting/Recording Coaching</li>
+          <li>✔ Weekly Project Report</li>
+        </ul>
+        <div class="card-bottom">
+          <a href="#call" class="subscribe-btn">Subscribe Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-circle-wrap">
+      <img src="/assets/images/circle.png" alt="Short Form Circle" />
+    </div>
+
+  </section>
+
+
+  <!-- Questions Section -->
+  <div class="faq-wrapper">
+    <div class="faq-container">
+      <div class="faq-left">
+        <div class="faq-title">
+          <div>Have</div>
+          <div>Questions?</div>
+        </div>
+
+        <div class="faq-footer">
+          <p>Have more questions?<br>Book a free discovery call.</p>
+          <button>BOOK A CALL</button>
+        </div>
+      </div>
+
+
+      <div class="faq-right">
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">How many videos will I get for each plan?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">It depends on your plan, but typically 4–80 videos per month.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">What’s the difference between Hi-Fi and Low-Fi?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Hi-Fi is premium, polished edits; Low-Fi is fast, simpler cuts.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">Why wouldn’t I just hire my own animator?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">We’re faster, more flexible, and cost-effective without overhead.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">How long does the video take?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Typical turnaround is 24–72 hours.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">Are you sure this will help me grow?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">We’ve helped dozens of creators go viral and scale consistently.</div>
+        </div>
+
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">Can I cancel if I don’t like it?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Absolutely! You’re free to cancel if you’re not satisfied.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">Do you offer trials or make example videos?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Yes, we offer a 7-day trial with sample output.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">What if I’m not happy with my video?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">We revise until you're happy—your satisfaction is our goal.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">Do you only make animated clips?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Nope! We also do reels, explainers, motion, and long-form video.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-top">
+            <div class="faq-question">How do I submit my content?</div>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">Via your custom dashboard or shared Google Drive folder.</div>
+        </div>
+        <!-- Repeat the same pattern for remaining items... -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
